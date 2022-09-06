@@ -1,1 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
+
+.container {
+  max-width: 22rem;
+  padding-block: 2rem;
+  @media (min-width: 576px) {
+    width: 100vw;
+    max-width: 50rem;
+    padding-inline: 1rem;
+  }
+}

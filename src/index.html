@@ -1,40 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>Tema Bootstrap</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="./style.scss" />
-</head>
-<body>
-  <p>
-    Implementează Designul de la <a href="https://www.figma.com/file/xEktFZL9eoqJ7lnmie6ufk/Teme-Front-End-by-Cornel?node-id=721%3A485">această pagină din Figma</a>
-  </p>
-  <p>
-    Resurse utile:
-  </p>
-  <ul>
-    <li>
-      <a href="https://getbootstrap.com/docs/5.2/components/navbar/">
-        Navbar
-      </a>
-    </li>
-    <li>
-      <a href="https://getbootstrap.com/docs/5.2/content/typography/#headings">
-        Headings
-      </a>
-    </li>
-    <li>
-      <a href="https://getbootstrap.com/docs/5.2/content/typography/#lead">
-        Lead text
-      </a>
-    </li>
-    <li>
-      <a href="https://getbootstrap.com/docs/5.2/components/buttons/">
-        Butoane
-      </a>
-    </li>
-  </ul>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tema Bootstrap</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.scss" />
+  </head>
+  <body>
+    <script src="./script.js" type="module"></script>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tema Bootstrap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#MenuShow"
+          aria-controls="MenuShow"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="MenuShow">
+          <ul class="navbar-nav text-center ms-auto active">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Acasă</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Servicii</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container mx-auto">
+      <div class="row align-items-center">
+        <img class="col-sm order-sm-last" src="img.png" alt="Figma Pic" />
+        <div class="text-center col-sm">
+          <h1>Building digital products, brands & experience</h1>
+          <p class="lead">
+            Digital Agency is your online team mangement tool that easy and
+            prompt
+          </p>
+          <button type="button" class="btn btn-primary">Contact us</button>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Exercitationem pariatur eaque nihil commodi reprehenderit earum
+            corrupti eligendi nesciunt praesentium, cupiditate quas inventore
+            reiciendis architecto, consectetur sequi tempore repellendus impedit
+            aut.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
