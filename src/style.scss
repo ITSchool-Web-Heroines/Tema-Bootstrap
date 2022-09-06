@@ -1,1 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
+
+.active {
+    background: rgba(33, 37, 41, 0.4);
+    border-radius: 4px;
+
+}
+
+.text{
+    font-weight: 600;
+}
