@@ -1,1 +1,15 @@
 @import "~bootstrap/scss/bootstrap";
+
+.active {
+  background-color: #1651a8;
+  color: white;
+  border-radius: 0.5rem;
+}
+@media (min-width: 768px) {
+  .navbar {
+    padding-inline: 3rem;
+  }
+  .text {
+    margin-block-start: 10rem;
+  }
+}
