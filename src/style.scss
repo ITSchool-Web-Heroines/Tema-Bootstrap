@@ -1,1 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
+.nav-item:hover {
+    background-color: rgb(12,100,230);
+    border-radius: 0.5rem;
+}
+
+.active {
+    background-color: darkblue;
+}
